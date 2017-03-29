@@ -47,3 +47,108 @@ Version: '10.1.8-MariaDB'  socket: ''  port: 3306  mariadb.org binary distributi
 2017-03-27 12:11:16 10928 [Note] Server socket created on IP: '::'.
 2017-03-27 12:11:16 10928 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
 Version: '10.1.19-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2017-03-28 17:39:46 c36c InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2017-03-28 17:39:46 50028 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2017-03-28 17:39:46 50028 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2017-03-28 17:39:46 50028 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-03-28 17:39:46 50028 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-03-28 17:39:46 50028 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-03-28 17:39:46 50028 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-03-28 17:39:46 50028 [Note] InnoDB: Using generic crc32 instructions
+2017-03-28 17:39:46 50028 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2017-03-28 17:39:46 50028 [Note] InnoDB: Completed initialization of buffer pool
+2017-03-28 17:39:46 50028 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-03-28 17:39:46 50028 [Note] InnoDB: The log sequence numbers 1835037 and 1835037 in ibdata files do not match the log sequence number 2078472 in the ib_logfiles!
+2017-03-28 17:39:46 50028 [Note] InnoDB: Database was not shutdown normally!
+2017-03-28 17:39:46 50028 [Note] InnoDB: Starting crash recovery.
+2017-03-28 17:39:46 50028 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2017-03-28 17:39:46 50028 [Note] InnoDB: Restoring possible half-written data pages 
+2017-03-28 17:39:46 50028 [Note] InnoDB: from the doublewrite buffer...
+2017-03-28 17:39:47 50028 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-03-28 17:39:47 50028 [Note] InnoDB: Waiting for purge to start
+2017-03-28 17:39:47 50028 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.32-79.0 started; log sequence number 2078472
+2017-03-28 17:39:47 48048 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2017-03-28 17:39:47 50028 [Note] Plugin 'FEEDBACK' is disabled.
+2017-03-28 17:39:47 50028 [Note] Server socket created on IP: '::'.
+2017-03-28 17:39:47 50028 [ERROR] mysqld.exe: Table '.\mysql\db' is marked as crashed and should be repaired
+2017-03-28 17:39:47 50028 [Warning] Checking table:   '.\mysql\db'
+2017-03-28 17:39:47 50028 [ERROR] mysql.db: 1 client is using or hasn't closed the table properly
+2017-03-28 17:39:48 50028 [ERROR] mysqld.exe: Table '.\mysql\tables_priv' is marked as crashed and should be repaired
+2017-03-28 17:39:48 50028 [Warning] Checking table:   '.\mysql\tables_priv'
+2017-03-28 17:39:48 50028 [ERROR] mysql.tables_priv: 1 client is using or hasn't closed the table properly
+2017-03-28 17:39:48 50028 [ERROR] mysqld.exe: Table '.\mysql\columns_priv' is marked as crashed and should be repaired
+2017-03-28 17:39:48 50028 [Warning] Checking table:   '.\mysql\columns_priv'
+2017-03-28 17:39:48 50028 [ERROR] mysql.columns_priv: 1 client is using or hasn't closed the table properly
+2017-03-28 17:39:48 50028 [ERROR] mysqld.exe: Table '.\mysql\procs_priv' is marked as crashed and should be repaired
+2017-03-28 17:39:48 50028 [Warning] Checking table:   '.\mysql\procs_priv'
+2017-03-28 17:39:48 50028 [ERROR] mysql.procs_priv: 1 client is using or hasn't closed the table properly
+2017-03-28 17:39:48 50028 [Note] D:\Dokumente\github\enterprisesolutiondevelopment\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.19-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2017-03-28 18:08:00 49276 [Note] D:\Dokumente\github\enterprisesolutiondevelopment\mysql\bin\mysqld.exe: Normal shutdown
+
+2017-03-28 18:08:00 49276 [Note] Event Scheduler: Purging the queue. 0 events
+2017-03-28 18:08:01 49096 [Note] InnoDB: FTS optimize thread exiting.
+2017-03-28 18:08:01 49276 [Note] InnoDB: Starting shutdown...
+2017-03-28 18:08:01 49276 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2017-03-28 18:08:02 49276 [Note] InnoDB: Shutdown completed; log sequence number 3620817
+2017-03-28 18:08:02 49276 [Note] D:\Dokumente\github\enterprisesolutiondevelopment\mysql\bin\mysqld.exe: Shutdown complete
+
+2017-03-29 16:17:56 f1f4 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2017-03-29 16:17:56 61940 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2017-03-29 16:17:56 61940 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2017-03-29 16:17:56 61940 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-03-29 16:17:56 61940 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-03-29 16:17:56 61940 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-03-29 16:17:56 61940 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-03-29 16:17:56 61940 [Note] InnoDB: Using generic crc32 instructions
+2017-03-29 16:17:56 61940 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2017-03-29 16:17:56 61940 [Note] InnoDB: Completed initialization of buffer pool
+2017-03-29 16:17:56 61940 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-03-29 16:17:57 61940 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-03-29 16:17:57 61940 [Note] InnoDB: Waiting for purge to start
+2017-03-29 16:17:57 61940 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.32-79.0 started; log sequence number 3620817
+2017-03-29 16:17:57 28188 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2017-03-29 16:17:57 61940 [Note] Plugin 'FEEDBACK' is disabled.
+2017-03-29 16:17:57 61940 [Note] Server socket created on IP: '::'.
+2017-03-29 16:17:58 61940 [Note] d:\dokumente\github\enterprisesolutiondevelopment\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.19-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2017-03-29 17:02:09 def4 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2017-03-29 17:02:09 57076 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2017-03-29 17:02:09 57076 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2017-03-29 17:02:09 57076 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-03-29 17:02:09 57076 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-03-29 17:02:09 57076 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-03-29 17:02:09 57076 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-03-29 17:02:09 57076 [Note] InnoDB: Using generic crc32 instructions
+2017-03-29 17:02:09 57076 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2017-03-29 17:02:09 57076 [Note] InnoDB: Completed initialization of buffer pool
+2017-03-29 17:02:09 57076 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-03-29 17:02:09 57076 [Note] InnoDB: The log sequence numbers 3620817 and 3620817 in ibdata files do not match the log sequence number 4443062 in the ib_logfiles!
+2017-03-29 17:02:09 57076 [Note] InnoDB: Database was not shutdown normally!
+2017-03-29 17:02:09 57076 [Note] InnoDB: Starting crash recovery.
+2017-03-29 17:02:09 57076 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2017-03-29 17:02:10 57076 [Note] InnoDB: Restoring possible half-written data pages 
+2017-03-29 17:02:10 57076 [Note] InnoDB: from the doublewrite buffer...
+2017-03-29 17:02:10 57076 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-03-29 17:02:10 57076 [Note] InnoDB: Waiting for purge to start
+2017-03-29 17:02:10 57076 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.32-79.0 started; log sequence number 4443062
+2017-03-29 17:02:11 17692 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2017-03-29 17:02:11 57076 [Note] Plugin 'FEEDBACK' is disabled.
+2017-03-29 17:02:11 57076 [Note] Server socket created on IP: '::'.
+2017-03-29 17:02:11 57076 [ERROR] mysqld.exe: Table '.\mysql\db' is marked as crashed and should be repaired
+2017-03-29 17:02:11 57076 [Warning] Checking table:   '.\mysql\db'
+2017-03-29 17:02:11 57076 [ERROR] mysql.db: 1 client is using or hasn't closed the table properly
+2017-03-29 17:02:11 57076 [ERROR] mysqld.exe: Table '.\mysql\tables_priv' is marked as crashed and should be repaired
+2017-03-29 17:02:11 57076 [Warning] Checking table:   '.\mysql\tables_priv'
+2017-03-29 17:02:11 57076 [ERROR] mysql.tables_priv: 1 client is using or hasn't closed the table properly
+2017-03-29 17:02:11 57076 [ERROR] mysqld.exe: Table '.\mysql\columns_priv' is marked as crashed and should be repaired
+2017-03-29 17:02:11 57076 [Warning] Checking table:   '.\mysql\columns_priv'
+2017-03-29 17:02:11 57076 [ERROR] mysql.columns_priv: 1 client is using or hasn't closed the table properly
+2017-03-29 17:02:11 57076 [ERROR] mysqld.exe: Table '.\mysql\procs_priv' is marked as crashed and should be repaired
+2017-03-29 17:02:11 57076 [Warning] Checking table:   '.\mysql\procs_priv'
+2017-03-29 17:02:11 57076 [ERROR] mysql.procs_priv: 1 client is using or hasn't closed the table properly
+2017-03-29 17:02:11 57076 [Note] d:\dokumente\github\enterprisesolutiondevelopment\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.19-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution

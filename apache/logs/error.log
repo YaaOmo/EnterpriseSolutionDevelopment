@@ -7,3 +7,35 @@
 [Mon Mar 27 12:11:15.934548 2017] [ssl:warn] [pid 9784:tid 604] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Mon Mar 27 12:11:16.048062 2017] [ssl:warn] [pid 9784:tid 604] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Mon Mar 27 12:11:16.071651 2017] [mpm_winnt:notice] [pid 9784:tid 604] AH00354: Child: Starting 150 worker threads.
+[Tue Mar 28 17:39:40.954368 2017] [ssl:warn] [pid 60300:tid 992] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 28 17:39:41.100234 2017] [core:warn] [pid 60300:tid 992] AH00098: pid file D:/Dokumente/GitHub/EnterpriseSolutionDevelopment/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Mar 28 17:39:41.231408 2017] [ssl:warn] [pid 60300:tid 992] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 28 17:39:41.527070 2017] [mpm_winnt:notice] [pid 60300:tid 992] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28 configured -- resuming normal operations
+[Tue Mar 28 17:39:41.527070 2017] [mpm_winnt:notice] [pid 60300:tid 992] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Tue Mar 28 17:39:41.527070 2017] [core:notice] [pid 60300:tid 992] AH00094: Command line: 'D:\\Dokumente\\github\\enterprisesolutiondevelopment\\apache\\bin\\httpd.exe -d D:/Dokumente/GitHub/EnterpriseSolutionDevelopment/apache'
+[Tue Mar 28 17:39:41.528572 2017] [mpm_winnt:notice] [pid 60300:tid 992] AH00418: Parent: Created child process 48276
+[Tue Mar 28 17:39:42.352641 2017] [ssl:warn] [pid 48276:tid 900] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 28 17:39:42.583604 2017] [ssl:warn] [pid 48276:tid 900] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Mar 28 17:39:42.633379 2017] [mpm_winnt:notice] [pid 48276:tid 900] AH00354: Child: Starting 150 worker threads.
+[Tue Mar 28 18:07:53.404115 2017] [mpm_winnt:notice] [pid 60300:tid 992] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Mar 28 18:07:55.404988 2017] [mpm_winnt:notice] [pid 48276:tid 900] AH00364: Child: All worker threads have exited.
+[Tue Mar 28 18:07:55.928569 2017] [mpm_winnt:notice] [pid 60300:tid 992] AH00430: Parent: Child process 48276 exited successfully.
+[Wed Mar 29 16:17:51.255811 2017] [ssl:warn] [pid 40968:tid 916] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 29 16:17:51.540558 2017] [ssl:warn] [pid 40968:tid 916] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 29 16:17:52.452092 2017] [mpm_winnt:notice] [pid 40968:tid 916] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28 configured -- resuming normal operations
+[Wed Mar 29 16:17:52.452092 2017] [mpm_winnt:notice] [pid 40968:tid 916] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Wed Mar 29 16:17:52.452092 2017] [core:notice] [pid 40968:tid 916] AH00094: Command line: 'd:\\dokumente\\github\\enterprisesolutiondevelopment\\apache\\bin\\httpd.exe -d D:/Dokumente/GitHub/EnterpriseSolutionDevelopment/apache'
+[Wed Mar 29 16:17:52.455597 2017] [mpm_winnt:notice] [pid 40968:tid 916] AH00418: Parent: Created child process 8664
+[Wed Mar 29 16:17:53.234779 2017] [ssl:warn] [pid 8664:tid 920] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 29 16:17:53.472530 2017] [ssl:warn] [pid 8664:tid 920] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 29 16:17:53.531663 2017] [mpm_winnt:notice] [pid 8664:tid 920] AH00354: Child: Starting 150 worker threads.
+[Wed Mar 29 17:02:09.554817 2017] [ssl:warn] [pid 17976:tid 920] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 29 17:02:09.657945 2017] [core:warn] [pid 17976:tid 920] AH00098: pid file D:/Dokumente/GitHub/EnterpriseSolutionDevelopment/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Mar 29 17:02:09.784603 2017] [ssl:warn] [pid 17976:tid 920] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 29 17:02:09.815142 2017] [mpm_winnt:notice] [pid 17976:tid 920] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28 configured -- resuming normal operations
+[Wed Mar 29 17:02:09.815142 2017] [mpm_winnt:notice] [pid 17976:tid 920] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Wed Mar 29 17:02:09.815142 2017] [core:notice] [pid 17976:tid 920] AH00094: Command line: 'd:\\dokumente\\github\\enterprisesolutiondevelopment\\apache\\bin\\httpd.exe -d D:/Dokumente/GitHub/EnterpriseSolutionDevelopment/apache'
+[Wed Mar 29 17:02:09.818645 2017] [mpm_winnt:notice] [pid 17976:tid 920] AH00418: Parent: Created child process 49208
+[Wed Mar 29 17:02:10.575661 2017] [ssl:warn] [pid 49208:tid 928] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 29 17:02:10.832963 2017] [ssl:warn] [pid 49208:tid 928] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Mar 29 17:02:10.863501 2017] [mpm_winnt:notice] [pid 49208:tid 928] AH00354: Child: Starting 150 worker threads.
