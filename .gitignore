@@ -1,2 +1,6 @@
 *.log
 tmp/*
+mysql/bin/*
+php/*
+apache/*
+phpmyadmin/*
