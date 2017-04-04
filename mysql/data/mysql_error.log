@@ -152,3 +152,251 @@ Version: '10.1.19-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribut
 2017-03-29 17:02:11 57076 [ERROR] mysql.procs_priv: 1 client is using or hasn't closed the table properly
 2017-03-29 17:02:11 57076 [Note] d:\dokumente\github\enterprisesolutiondevelopment\mysql\bin\mysqld.exe: ready for connections.
 Version: '10.1.19-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2017-03-30 12:00:11 111c8 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2017-03-30 12:00:11 70088 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2017-03-30 12:00:11 70088 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2017-03-30 12:00:11 70088 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-03-30 12:00:11 70088 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-03-30 12:00:11 70088 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-03-30 12:00:11 70088 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-03-30 12:00:11 70088 [Note] InnoDB: Using generic crc32 instructions
+2017-03-30 12:00:11 70088 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2017-03-30 12:00:11 70088 [Note] InnoDB: Completed initialization of buffer pool
+2017-03-30 12:00:11 70088 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-03-30 12:00:11 70088 [Note] InnoDB: The log sequence numbers 3620817 and 3620817 in ibdata files do not match the log sequence number 4443072 in the ib_logfiles!
+2017-03-30 12:00:11 70088 [Note] InnoDB: Database was not shutdown normally!
+2017-03-30 12:00:11 70088 [Note] InnoDB: Starting crash recovery.
+2017-03-30 12:00:11 70088 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2017-03-30 12:00:13 70088 [Note] InnoDB: Restoring possible half-written data pages 
+2017-03-30 12:00:13 70088 [Note] InnoDB: from the doublewrite buffer...
+2017-03-30 12:00:13 70088 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-03-30 12:00:13 70088 [Note] InnoDB: Waiting for purge to start
+2017-03-30 12:00:13 70088 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.32-79.0 started; log sequence number 4443072
+2017-03-30 12:00:14 16572 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2017-03-30 12:00:14 70088 [Note] Plugin 'FEEDBACK' is disabled.
+2017-03-30 12:00:14 70088 [Note] Server socket created on IP: '::'.
+2017-03-30 12:00:15 70088 [Note] d:\dokumente\github\enterprisesolutiondevelopment\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.19-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2017-03-30 12:01:00 70244 [ERROR] mysqld.exe: Table '.\joomla\q5lba_session' is marked as crashed and should be repaired
+2017-03-30 12:01:00 70244 [Warning] Checking table:   '.\joomla\q5lba_session'
+2017-03-30 12:01:00 70244 [ERROR] mysqld.exe: Table '.\joomla\q5lba_extensions' is marked as crashed and should be repaired
+2017-03-30 12:01:00 70244 [Warning] Checking table:   '.\joomla\q5lba_extensions'
+2017-03-30 12:01:00 70244 [ERROR] mysqld.exe: Table '.\joomla\q5lba_usergroups' is marked as crashed and should be repaired
+2017-03-30 12:01:00 70244 [Warning] Checking table:   '.\joomla\q5lba_usergroups'
+2017-03-30 12:01:00 70244 [ERROR] mysqld.exe: Table '.\joomla\q5lba_viewlevels' is marked as crashed and should be repaired
+2017-03-30 12:01:00 70244 [Warning] Checking table:   '.\joomla\q5lba_viewlevels'
+2017-03-30 12:01:01 70244 [ERROR] mysqld.exe: Table '.\joomla\q5lba_menu' is marked as crashed and should be repaired
+2017-03-30 12:01:01 70244 [Warning] Checking table:   '.\joomla\q5lba_menu'
+2017-03-30 12:01:01 70244 [ERROR] mysqld.exe: Table '.\joomla\q5lba_languages' is marked as crashed and should be repaired
+2017-03-30 12:01:01 70244 [Warning] Checking table:   '.\joomla\q5lba_languages'
+2017-03-30 12:01:02 70244 [ERROR] mysqld.exe: Table '.\joomla\q5lba_template_styles' is marked as crashed and should be repaired
+2017-03-30 12:01:02 70244 [Warning] Checking table:   '.\joomla\q5lba_template_styles'
+2017-03-30 12:01:02 70244 [ERROR] mysqld.exe: Table '.\joomla\q5lba_assets' is marked as crashed and should be repaired
+2017-03-30 12:01:02 70244 [Warning] Checking table:   '.\joomla\q5lba_assets'
+2017-03-30 12:01:02 70244 [ERROR] mysqld.exe: Table '.\joomla\q5lba_categories' is marked as crashed and should be repaired
+2017-03-30 12:01:02 70244 [Warning] Checking table:   '.\joomla\q5lba_categories'
+2017-03-30 12:01:02 70244 [ERROR] mysqld.exe: Table '.\joomla\q5lba_users' is marked as crashed and should be repaired
+2017-03-30 12:01:02 70244 [Warning] Checking table:   '.\joomla\q5lba_users'
+2017-03-30 12:01:03 70244 [ERROR] mysqld.exe: Table '.\joomla\q5lba_modules' is marked as crashed and should be repaired
+2017-03-30 12:01:03 70244 [Warning] Checking table:   '.\joomla\q5lba_modules'
+2017-03-30 12:01:03 70244 [ERROR] mysqld.exe: Table '.\joomla\q5lba_modules_menu' is marked as crashed and should be repaired
+2017-03-30 12:01:03 70244 [Warning] Checking table:   '.\joomla\q5lba_modules_menu'
+2017-03-30 12:01:04 70244 [ERROR] mysqld.exe: Table '.\joomla\q5lba_update_sites' is marked as crashed and should be repaired
+2017-03-30 12:01:04 70244 [Warning] Checking table:   '.\joomla\q5lba_update_sites'
+2017-03-30 12:01:04 70244 [ERROR] mysqld.exe: Table '.\joomla\q5lba_update_sites_extensions' is marked as crashed and should be repaired
+2017-03-30 12:01:04 70244 [Warning] Checking table:   '.\joomla\q5lba_update_sites_extensions'
+2017-03-30 12:02:58 70244 [ERROR] mysqld.exe: Table '.\joomla\q5lba_user_usergroup_map' is marked as crashed and should be repaired
+2017-03-30 12:02:58 70244 [Warning] Checking table:   '.\joomla\q5lba_user_usergroup_map'
+2017-03-30 12:03:03 70244 [ERROR] mysqld.exe: Table '.\joomla\q5lba_postinstall_messages' is marked as crashed and should be repaired
+2017-03-30 12:03:03 70244 [Warning] Checking table:   '.\joomla\q5lba_postinstall_messages'
+2017-03-30 12:03:04 70244 [ERROR] mysqld.exe: Table '.\joomla\q5lba_menu_types' is marked as crashed and should be repaired
+2017-03-30 12:03:04 70244 [Warning] Checking table:   '.\joomla\q5lba_menu_types'
+2017-03-30 12:19:32 32064 [ERROR] mysqld.exe: Table '.\joomla\q5lba_content_types' is marked as crashed and should be repaired
+2017-03-30 12:19:32 32064 [Warning] Checking table:   '.\joomla\q5lba_content_types'
+2017-03-30 12:19:32 32064 [ERROR] mysqld.exe: Table '.\joomla\q5lba_finder_taxonomy' is marked as crashed and should be repaired
+2017-03-30 12:19:33 32064 [Warning] Checking table:   '.\joomla\q5lba_finder_taxonomy'
+2017-03-30 12:19:33 32064 [ERROR] mysqld.exe: Table '.\joomla\q5lba_schemas' is marked as crashed and should be repaired
+2017-03-30 12:19:33 32064 [Warning] Checking table:   '.\joomla\q5lba_schemas'
+2017-03-30 12:19:33 32064 [ERROR] mysqld.exe: Table '.\joomla\q5lba_tags' is marked as crashed and should be repaired
+2017-03-30 12:19:33 32064 [Warning] Checking table:   '.\joomla\q5lba_tags'
+2017-03-30 12:19:33 32064 [ERROR] mysqld.exe: Table '.\joomla\q5lba_utf8_conversion' is marked as crashed and should be repaired
+2017-03-30 12:19:33 32064 [Warning] Checking table:   '.\joomla\q5lba_utf8_conversion'
+2017-03-31 15:29:28 3c20 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2017-03-31 15:29:28 15392 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2017-03-31 15:29:28 15392 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2017-03-31 15:29:28 15392 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-03-31 15:29:28 15392 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-03-31 15:29:28 15392 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-03-31 15:29:28 15392 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-03-31 15:29:28 15392 [Note] InnoDB: Using generic crc32 instructions
+2017-03-31 15:29:28 15392 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2017-03-31 15:29:28 15392 [Note] InnoDB: Completed initialization of buffer pool
+2017-03-31 15:29:28 15392 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-03-31 15:29:29 15392 [Note] InnoDB: The log sequence numbers 3620817 and 3620817 in ibdata files do not match the log sequence number 4443092 in the ib_logfiles!
+2017-03-31 15:29:29 15392 [Note] InnoDB: Database was not shutdown normally!
+2017-03-31 15:29:29 15392 [Note] InnoDB: Starting crash recovery.
+2017-03-31 15:29:29 15392 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2017-03-31 15:29:29 15392 [Note] InnoDB: Restoring possible half-written data pages 
+2017-03-31 15:29:29 15392 [Note] InnoDB: from the doublewrite buffer...
+2017-03-31 15:29:32 15392 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-03-31 15:29:32 15392 [Note] InnoDB: Waiting for purge to start
+2017-03-31 15:29:32 15392 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.32-79.0 started; log sequence number 4443092
+2017-03-31 15:29:32 16816 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2017-03-31 15:29:32 15392 [Note] Plugin 'FEEDBACK' is disabled.
+2017-03-31 15:29:32 15392 [Note] Server socket created on IP: '::'.
+2017-03-31 15:29:32 15392 [ERROR] mysqld.exe: Table '.\mysql\db' is marked as crashed and should be repaired
+2017-03-31 15:29:32 15392 [Warning] Checking table:   '.\mysql\db'
+2017-03-31 15:29:32 15392 [ERROR] mysql.db: 1 client is using or hasn't closed the table properly
+2017-03-31 15:29:32 15392 [ERROR] mysqld.exe: Table '.\mysql\tables_priv' is marked as crashed and should be repaired
+2017-03-31 15:29:32 15392 [Warning] Checking table:   '.\mysql\tables_priv'
+2017-03-31 15:29:32 15392 [ERROR] mysql.tables_priv: 1 client is using or hasn't closed the table properly
+2017-03-31 15:29:32 15392 [ERROR] mysqld.exe: Table '.\mysql\columns_priv' is marked as crashed and should be repaired
+2017-03-31 15:29:33 15392 [Warning] Checking table:   '.\mysql\columns_priv'
+2017-03-31 15:29:33 15392 [ERROR] mysql.columns_priv: 1 client is using or hasn't closed the table properly
+2017-03-31 15:29:33 15392 [ERROR] mysqld.exe: Table '.\mysql\procs_priv' is marked as crashed and should be repaired
+2017-03-31 15:29:33 15392 [Warning] Checking table:   '.\mysql\procs_priv'
+2017-03-31 15:29:33 15392 [ERROR] mysql.procs_priv: 1 client is using or hasn't closed the table properly
+2017-03-31 15:29:33 15392 [Note] d:\dokumente\github\enterprisesolutiondevelopment\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.19-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2017-03-31 15:29:41 16432 [ERROR] mysqld.exe: Table '.\joomla\q5lba_session' is marked as crashed and should be repaired
+2017-03-31 15:29:42 16432 [Warning] Checking table:   '.\joomla\q5lba_session'
+2017-03-31 15:29:42 16432 [ERROR] mysqld.exe: Table '.\joomla\q5lba_extensions' is marked as crashed and should be repaired
+2017-03-31 15:29:42 16432 [Warning] Checking table:   '.\joomla\q5lba_extensions'
+2017-03-31 15:29:45 16432 [ERROR] mysqld.exe: Table '.\joomla\q5lba_template_styles' is marked as crashed and should be repaired
+2017-03-31 15:29:45 16432 [Warning] Checking table:   '.\joomla\q5lba_template_styles'
+2017-03-31 15:29:46 16432 [ERROR] mysqld.exe: Table '.\joomla\q5lba_assets' is marked as crashed and should be repaired
+2017-03-31 15:29:46 16432 [Warning] Checking table:   '.\joomla\q5lba_assets'
+2017-03-31 15:29:47 16432 [ERROR] mysqld.exe: Table '.\joomla\q5lba_content' is marked as crashed and should be repaired
+2017-03-31 15:29:47 16432 [Warning] Checking table:   '.\joomla\q5lba_content'
+2017-03-31 15:29:47 16432 [ERROR] mysqld.exe: Table '.\joomla\q5lba_categories' is marked as crashed and should be repaired
+2017-03-31 15:29:47 16432 [Warning] Checking table:   '.\joomla\q5lba_categories'
+2017-03-31 15:29:47 16432 [ERROR] mysqld.exe: Table '.\joomla\q5lba_users' is marked as crashed and should be repaired
+2017-03-31 15:29:47 16432 [Warning] Checking table:   '.\joomla\q5lba_users'
+2017-03-31 15:29:48 16432 [ERROR] mysqld.exe: Table '.\joomla\q5lba_modules' is marked as crashed and should be repaired
+2017-03-31 15:29:48 16432 [Warning] Checking table:   '.\joomla\q5lba_modules'
+2017-03-31 15:29:48 16432 [ERROR] mysqld.exe: Table '.\joomla\q5lba_modules_menu' is marked as crashed and should be repaired
+2017-03-31 15:29:48 16432 [Warning] Checking table:   '.\joomla\q5lba_modules_menu'
+2017-03-31 15:29:50 16432 [ERROR] mysqld.exe: Table '.\joomla\q5lba_update_sites' is marked as crashed and should be repaired
+2017-03-31 15:29:50 13012 [ERROR] mysqld.exe: Table '.\joomla\q5lba_update_sites' is marked as crashed and should be repaired
+2017-03-31 15:29:50 16432 [Warning] Checking table:   '.\joomla\q5lba_update_sites'
+2017-03-31 15:29:50 13012 [ERROR] mysqld.exe: Table '.\joomla\q5lba_update_sites_extensions' is marked as crashed and should be repaired
+2017-03-31 15:29:50 16432 [ERROR] mysqld.exe: Table '.\joomla\q5lba_update_sites_extensions' is marked as crashed and should be repaired
+2017-03-31 15:29:50 13012 [Warning] Checking table:   '.\joomla\q5lba_update_sites_extensions'
+2017-04-01 12:44:34 4388 InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2017-04-01 12:44:34 17288 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2017-04-01 12:44:34 17288 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2017-04-01 12:44:34 17288 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-04-01 12:44:34 17288 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-04-01 12:44:34 17288 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-04-01 12:44:34 17288 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-04-01 12:44:34 17288 [Note] InnoDB: Using generic crc32 instructions
+2017-04-01 12:44:34 17288 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2017-04-01 12:44:34 17288 [Note] InnoDB: Completed initialization of buffer pool
+2017-04-01 12:44:34 17288 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-04-01 12:44:34 17288 [Note] InnoDB: The log sequence numbers 3620817 and 3620817 in ibdata files do not match the log sequence number 4443102 in the ib_logfiles!
+2017-04-01 12:44:34 17288 [Note] InnoDB: Database was not shutdown normally!
+2017-04-01 12:44:34 17288 [Note] InnoDB: Starting crash recovery.
+2017-04-01 12:44:34 17288 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2017-04-01 12:44:35 17288 [Note] InnoDB: Restoring possible half-written data pages 
+2017-04-01 12:44:35 17288 [Note] InnoDB: from the doublewrite buffer...
+2017-04-01 12:44:36 17288 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-04-01 12:44:36 17288 [Note] InnoDB: Waiting for purge to start
+2017-04-01 12:44:36 17288 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.32-79.0 started; log sequence number 4443102
+2017-04-01 12:44:36 22284 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2017-04-01 12:44:36 17288 [Note] Plugin 'FEEDBACK' is disabled.
+2017-04-01 12:44:37 17288 [Note] Server socket created on IP: '::'.
+2017-04-01 12:44:38 17288 [Note] d:\dokumente\github\enterprisesolutiondevelopment\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.19-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2017-04-01 12:44:41 15548 [ERROR] mysqld.exe: Table '.\joomla\q5lba_session' is marked as crashed and should be repaired
+2017-04-01 12:44:41 15548 [Warning] Checking table:   '.\joomla\q5lba_session'
+2017-04-01 12:44:42 15548 [ERROR] mysqld.exe: Table '.\joomla\q5lba_users' is marked as crashed and should be repaired
+2017-04-01 12:44:42 15548 [Warning] Checking table:   '.\joomla\q5lba_users'
+2017-04-01 12:44:42 15548 [ERROR] mysqld.exe: Table '.\joomla\q5lba_extensions' is marked as crashed and should be repaired
+2017-04-01 12:44:42 15548 [Warning] Checking table:   '.\joomla\q5lba_extensions'
+2017-04-01 12:44:43 15548 [ERROR] mysqld.exe: Table '.\joomla\q5lba_update_sites' is marked as crashed and should be repaired
+2017-04-01 12:44:43 15548 [Warning] Checking table:   '.\joomla\q5lba_update_sites'
+2017-04-01 12:44:50 15548 [ERROR] mysqld.exe: Table '.\joomla\q5lba_content' is marked as crashed and should be repaired
+2017-04-01 12:44:50 15548 [Warning] Checking table:   '.\joomla\q5lba_content'
+2017-04-03 17:46:29 3c3c InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2017-04-03 17:46:29 15420 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2017-04-03 17:46:29 15420 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2017-04-03 17:46:29 15420 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-04-03 17:46:29 15420 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-04-03 17:46:29 15420 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-04-03 17:46:29 15420 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-04-03 17:46:29 15420 [Note] InnoDB: Using generic crc32 instructions
+2017-04-03 17:46:29 15420 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2017-04-03 17:46:29 15420 [Note] InnoDB: Completed initialization of buffer pool
+2017-04-03 17:46:29 15420 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-04-03 17:46:29 15420 [Note] InnoDB: The log sequence numbers 3620817 and 3620817 in ibdata files do not match the log sequence number 4443112 in the ib_logfiles!
+2017-04-03 17:46:29 15420 [Note] InnoDB: Database was not shutdown normally!
+2017-04-03 17:46:29 15420 [Note] InnoDB: Starting crash recovery.
+2017-04-03 17:46:29 15420 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2017-04-03 17:46:29 15420 [Note] InnoDB: Restoring possible half-written data pages 
+2017-04-03 17:46:29 15420 [Note] InnoDB: from the doublewrite buffer...
+2017-04-03 17:46:30 15420 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-04-03 17:46:30 15420 [Note] InnoDB: Waiting for purge to start
+2017-04-03 17:46:30 15420 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.32-79.0 started; log sequence number 4443112
+2017-04-03 17:46:30 15552 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2017-04-03 17:46:30 15420 [Note] Plugin 'FEEDBACK' is disabled.
+2017-04-03 17:46:30 15420 [Note] Server socket created on IP: '::'.
+2017-04-03 17:46:31 15420 [Note] d:\dokumente\github\enterprisesolutiondevelopment\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.19-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2017-04-03 17:51:06 5656 [ERROR] mysqld.exe: Table '.\joomla\q5lba_session' is marked as crashed and should be repaired
+2017-04-03 17:51:06 5656 [Warning] Checking table:   '.\joomla\q5lba_session'
+2017-04-03 17:51:06 5656 [ERROR] mysqld.exe: Table '.\joomla\q5lba_extensions' is marked as crashed and should be repaired
+2017-04-03 17:51:06 5656 [Warning] Checking table:   '.\joomla\q5lba_extensions'
+2017-04-03 17:51:08 5656 [ERROR] mysqld.exe: Table '.\joomla\q5lba_users' is marked as crashed and should be repaired
+2017-04-03 17:51:08 5656 [Warning] Checking table:   '.\joomla\q5lba_users'
+2017-04-03 17:51:08 5656 [ERROR] mysqld.exe: Table '.\joomla\q5lba_update_sites' is marked as crashed and should be repaired
+2017-04-03 17:51:08 5656 [Warning] Checking table:   '.\joomla\q5lba_update_sites'
+2017-04-04 11:18:50 2acc InnoDB: Warning: Using innodb_additional_mem_pool_size is DEPRECATED. This option may be removed in future releases, together with the option innodb_use_sys_malloc and with the InnoDB's internal memory allocator.
+2017-04-04 11:18:50 10956 [Note] InnoDB: innodb_empty_free_list_algorithm has been changed to legacy because of small buffer pool size. In order to use backoff, increase buffer pool at least up to 20MB.
+
+2017-04-04 11:18:50 10956 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2017-04-04 11:18:50 10956 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-04-04 11:18:50 10956 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-04-04 11:18:50 10956 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-04-04 11:18:50 10956 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-04-04 11:18:50 10956 [Note] InnoDB: Using generic crc32 instructions
+2017-04-04 11:18:50 10956 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2017-04-04 11:18:50 10956 [Note] InnoDB: Completed initialization of buffer pool
+2017-04-04 11:18:51 10956 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-04-04 11:18:51 10956 [Note] InnoDB: The log sequence numbers 3620817 and 3620817 in ibdata files do not match the log sequence number 4443122 in the ib_logfiles!
+2017-04-04 11:18:51 10956 [Note] InnoDB: Database was not shutdown normally!
+2017-04-04 11:18:51 10956 [Note] InnoDB: Starting crash recovery.
+2017-04-04 11:18:51 10956 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2017-04-04 11:18:51 10956 [Note] InnoDB: Restoring possible half-written data pages 
+2017-04-04 11:18:51 10956 [Note] InnoDB: from the doublewrite buffer...
+2017-04-04 11:18:51 10956 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-04-04 11:18:51 10956 [Note] InnoDB: Waiting for purge to start
+2017-04-04 11:18:51 10956 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.32-79.0 started; log sequence number 4443122
+2017-04-04 11:18:51 14400 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2017-04-04 11:18:51 10956 [Note] Plugin 'FEEDBACK' is disabled.
+2017-04-04 11:18:51 10956 [Note] Server socket created on IP: '::'.
+2017-04-04 11:18:51 10956 [Note] d:\dokumente\github\enterprisesolutiondevelopment\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.19-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2017-04-04 11:19:05 19928 [ERROR] mysqld.exe: Table '.\joomla\q5lba_session' is marked as crashed and should be repaired
+2017-04-04 11:19:05 19928 [Warning] Checking table:   '.\joomla\q5lba_session'
+2017-04-04 11:19:05 19928 [ERROR] mysqld.exe: Table '.\joomla\q5lba_extensions' is marked as crashed and should be repaired
+2017-04-04 11:19:05 19928 [Warning] Checking table:   '.\joomla\q5lba_extensions'
+2017-04-04 11:19:06 19928 [ERROR] mysqld.exe: Table '.\joomla\q5lba_template_styles' is marked as crashed and should be repaired
+2017-04-04 11:19:06 19928 [Warning] Checking table:   '.\joomla\q5lba_template_styles'
+2017-04-04 11:19:06 19928 [ERROR] mysqld.exe: Table '.\joomla\q5lba_assets' is marked as crashed and should be repaired
+2017-04-04 11:19:06 19928 [Warning] Checking table:   '.\joomla\q5lba_assets'
+2017-04-04 11:19:06 19928 [ERROR] mysqld.exe: Table '.\joomla\q5lba_users' is marked as crashed and should be repaired
+2017-04-04 11:19:06 19928 [Warning] Checking table:   '.\joomla\q5lba_users'
+2017-04-04 11:19:06 19928 [ERROR] mysqld.exe: Table '.\joomla\q5lba_modules' is marked as crashed and should be repaired
+2017-04-04 11:19:06 19928 [Warning] Checking table:   '.\joomla\q5lba_modules'
+2017-04-04 11:19:06 19928 [ERROR] mysqld.exe: Table '.\joomla\q5lba_modules_menu' is marked as crashed and should be repaired
+2017-04-04 11:19:06 19928 [Warning] Checking table:   '.\joomla\q5lba_modules_menu'
+2017-04-04 11:19:07 19928 [ERROR] mysqld.exe: Table '.\joomla\q5lba_update_sites' is marked as crashed and should be repaired
+2017-04-04 11:19:07 19928 [Warning] Checking table:   '.\joomla\q5lba_update_sites'
+2017-04-04 11:21:17 19928 [ERROR] mysqld.exe: Table '.\joomla\q5lba_menu_types' is marked as crashed and should be repaired
+2017-04-04 11:21:17 19928 [Warning] Checking table:   '.\joomla\q5lba_menu_types'
+2017-04-04 11:44:02 20828 [ERROR] mysqld.exe: Table '.\joomla\q5lba_ucm_history' is marked as crashed and should be repaired
+2017-04-04 11:44:02 20828 [Warning] Checking table:   '.\joomla\q5lba_ucm_history'

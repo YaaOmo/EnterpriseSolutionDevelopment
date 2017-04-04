@@ -39,3 +39,98 @@
 [Wed Mar 29 17:02:10.575661 2017] [ssl:warn] [pid 49208:tid 928] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Wed Mar 29 17:02:10.832963 2017] [ssl:warn] [pid 49208:tid 928] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Wed Mar 29 17:02:10.863501 2017] [mpm_winnt:notice] [pid 49208:tid 928] AH00354: Child: Starting 150 worker threads.
+[Thu Mar 30 12:00:13.613521 2017] [ssl:warn] [pid 39324:tid 984] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 30 12:00:13.760715 2017] [core:warn] [pid 39324:tid 984] AH00098: pid file D:/Dokumente/GitHub/EnterpriseSolutionDevelopment/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Mar 30 12:00:13.912395 2017] [ssl:warn] [pid 39324:tid 984] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 30 12:00:15.964452 2017] [mpm_winnt:notice] [pid 39324:tid 984] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28 configured -- resuming normal operations
+[Thu Mar 30 12:00:15.964452 2017] [mpm_winnt:notice] [pid 39324:tid 984] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Thu Mar 30 12:00:15.964452 2017] [core:notice] [pid 39324:tid 984] AH00094: Command line: 'd:\\dokumente\\github\\enterprisesolutiondevelopment\\apache\\bin\\httpd.exe -d D:/Dokumente/GitHub/EnterpriseSolutionDevelopment/apache'
+[Thu Mar 30 12:00:15.967945 2017] [mpm_winnt:notice] [pid 39324:tid 984] AH00418: Parent: Created child process 34760
+[Thu Mar 30 12:00:16.883859 2017] [ssl:warn] [pid 34760:tid 940] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 30 12:00:17.156829 2017] [ssl:warn] [pid 34760:tid 940] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 30 12:00:17.192408 2017] [mpm_winnt:crit] [pid 34760:tid 940] (OS 109)Die Pipe wurde beendet.  : AH00404: Child: Unable to read socket data from parent
+[Thu Mar 30 12:00:17.998975 2017] [mpm_winnt:crit] [pid 39324:tid 984] AH00427: Parent: child process 34760 exited with status 3 -- Aborting.
+[Thu Mar 30 12:00:25.777566 2017] [ssl:warn] [pid 64584:tid 928] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 30 12:00:26.026062 2017] [ssl:warn] [pid 64584:tid 928] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 30 12:00:26.058603 2017] [mpm_winnt:notice] [pid 64584:tid 928] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28 configured -- resuming normal operations
+[Thu Mar 30 12:00:26.058603 2017] [mpm_winnt:notice] [pid 64584:tid 928] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Thu Mar 30 12:00:26.058603 2017] [core:notice] [pid 64584:tid 928] AH00094: Command line: 'd:\\dokumente\\github\\enterprisesolutiondevelopment\\apache\\bin\\httpd.exe -d D:/Dokumente/GitHub/EnterpriseSolutionDevelopment/apache'
+[Thu Mar 30 12:00:26.062108 2017] [mpm_winnt:notice] [pid 64584:tid 928] AH00418: Parent: Created child process 6648
+[Thu Mar 30 12:00:26.811523 2017] [ssl:warn] [pid 6648:tid 868] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 30 12:00:27.046279 2017] [ssl:warn] [pid 6648:tid 868] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 30 12:00:27.078821 2017] [mpm_winnt:notice] [pid 6648:tid 868] AH00354: Child: Starting 150 worker threads.
+[Thu Mar 30 12:18:58.328133 2017] [ssl:warn] [pid 49236:tid 940] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 30 12:18:58.457453 2017] [core:warn] [pid 49236:tid 940] AH00098: pid file D:/Dokumente/GitHub/EnterpriseSolutionDevelopment/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Mar 30 12:18:58.593623 2017] [ssl:warn] [pid 49236:tid 940] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 30 12:18:58.624662 2017] [mpm_winnt:notice] [pid 49236:tid 940] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28 configured -- resuming normal operations
+[Thu Mar 30 12:18:58.624662 2017] [mpm_winnt:notice] [pid 49236:tid 940] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Thu Mar 30 12:18:58.624662 2017] [core:notice] [pid 49236:tid 940] AH00094: Command line: 'd:\\dokumente\\github\\enterprisesolutiondevelopment\\apache\\bin\\httpd.exe -d D:/Dokumente/GitHub/EnterpriseSolutionDevelopment/apache'
+[Thu Mar 30 12:18:58.628166 2017] [mpm_winnt:notice] [pid 49236:tid 940] AH00418: Parent: Created child process 74236
+[Thu Mar 30 12:18:59.372357 2017] [ssl:warn] [pid 74236:tid 940] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 30 12:18:59.605802 2017] [ssl:warn] [pid 74236:tid 940] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Mar 30 12:18:59.638833 2017] [mpm_winnt:notice] [pid 74236:tid 940] AH00354: Child: Starting 150 worker threads.
+[Thu Mar 30 14:20:10.804711 2017] [:error] [pid 74236:tid 2252] [client ::1:13187] PHP Parse error:  syntax error, unexpected '<' in D:\\Dokumente\\GitHub\\EnterpriseSolutionDevelopment\\htdocs\\joomla\\plugins\\content\\DirectPHP\\DirectPHP.php(58) : eval()'d code on line 1
+[Fri Mar 31 15:29:26.922598 2017] [ssl:warn] [pid 13652:tid 912] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Mar 31 15:29:27.066380 2017] [core:warn] [pid 13652:tid 912] AH00098: pid file D:/Dokumente/GitHub/EnterpriseSolutionDevelopment/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Mar 31 15:29:27.184029 2017] [ssl:warn] [pid 13652:tid 912] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Mar 31 15:29:30.810611 2017] [mpm_winnt:notice] [pid 13652:tid 912] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28 configured -- resuming normal operations
+[Fri Mar 31 15:29:30.810611 2017] [mpm_winnt:notice] [pid 13652:tid 912] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Fri Mar 31 15:29:30.810611 2017] [core:notice] [pid 13652:tid 912] AH00094: Command line: 'd:\\dokumente\\github\\enterprisesolutiondevelopment\\apache\\bin\\httpd.exe -d D:/Dokumente/GitHub/EnterpriseSolutionDevelopment/apache'
+[Fri Mar 31 15:29:30.812113 2017] [mpm_winnt:notice] [pid 13652:tid 912] AH00418: Parent: Created child process 15936
+[Fri Mar 31 15:29:31.809830 2017] [ssl:warn] [pid 15936:tid 900] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Mar 31 15:29:32.044092 2017] [ssl:warn] [pid 15936:tid 900] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Mar 31 15:29:32.075130 2017] [mpm_winnt:notice] [pid 15936:tid 900] AH00354: Child: Starting 150 worker threads.
+[Sat Apr 01 12:44:36.657396 2017] [ssl:warn] [pid 17764:tid 916] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Apr 01 12:44:36.953865 2017] [core:warn] [pid 17764:tid 916] AH00098: pid file D:/Dokumente/GitHub/EnterpriseSolutionDevelopment/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Apr 01 12:44:37.084524 2017] [ssl:warn] [pid 17764:tid 916] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Apr 01 12:44:38.856327 2017] [mpm_winnt:notice] [pid 17764:tid 916] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28 configured -- resuming normal operations
+[Sat Apr 01 12:44:38.856327 2017] [mpm_winnt:notice] [pid 17764:tid 916] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Sat Apr 01 12:44:38.856327 2017] [core:notice] [pid 17764:tid 916] AH00094: Command line: 'd:\\dokumente\\github\\enterprisesolutiondevelopment\\apache\\bin\\httpd.exe -d D:/Dokumente/GitHub/EnterpriseSolutionDevelopment/apache'
+[Sat Apr 01 12:44:38.857830 2017] [mpm_winnt:notice] [pid 17764:tid 916] AH00418: Parent: Created child process 9204
+[Sat Apr 01 12:44:39.579410 2017] [ssl:warn] [pid 9204:tid 896] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Apr 01 12:44:39.798862 2017] [ssl:warn] [pid 9204:tid 896] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Apr 01 12:44:39.828900 2017] [mpm_winnt:notice] [pid 9204:tid 896] AH00354: Child: Starting 150 worker threads.
+[Mon Apr 03 17:46:27.469775 2017] [ssl:warn] [pid 5260:tid 888] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Apr 03 17:46:27.591549 2017] [core:warn] [pid 5260:tid 888] AH00098: pid file D:/Dokumente/GitHub/EnterpriseSolutionDevelopment/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Apr 03 17:46:27.709178 2017] [ssl:warn] [pid 5260:tid 888] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Apr 03 17:46:28.494728 2017] [mpm_winnt:notice] [pid 5260:tid 888] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28 configured -- resuming normal operations
+[Mon Apr 03 17:46:28.494728 2017] [mpm_winnt:notice] [pid 5260:tid 888] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Mon Apr 03 17:46:28.494728 2017] [core:notice] [pid 5260:tid 888] AH00094: Command line: 'd:\\dokumente\\github\\enterprisesolutiondevelopment\\apache\\bin\\httpd.exe -d D:/Dokumente/GitHub/EnterpriseSolutionDevelopment/apache'
+[Mon Apr 03 17:46:28.496220 2017] [mpm_winnt:notice] [pid 5260:tid 888] AH00418: Parent: Created child process 12304
+[Mon Apr 03 17:46:29.198097 2017] [ssl:warn] [pid 12304:tid 896] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Apr 03 17:46:29.468411 2017] [ssl:warn] [pid 12304:tid 896] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Apr 03 17:46:29.499951 2017] [mpm_winnt:notice] [pid 12304:tid 896] AH00354: Child: Starting 150 worker threads.
+[Tue Apr 04 11:18:47.952905 2017] [ssl:warn] [pid 16772:tid 900] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 04 11:18:48.031011 2017] [core:warn] [pid 16772:tid 900] AH00098: pid file D:/Dokumente/GitHub/EnterpriseSolutionDevelopment/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Apr 04 11:18:48.177184 2017] [ssl:warn] [pid 16772:tid 900] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 04 11:18:48.771736 2017] [mpm_winnt:notice] [pid 16772:tid 900] AH00455: Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/5.6.28 configured -- resuming normal operations
+[Tue Apr 04 11:18:48.771736 2017] [mpm_winnt:notice] [pid 16772:tid 900] AH00456: Apache Lounge VC11 Server built: Jul  7 2016 11:13:22
+[Tue Apr 04 11:18:48.771736 2017] [core:notice] [pid 16772:tid 900] AH00094: Command line: 'd:\\dokumente\\github\\enterprisesolutiondevelopment\\apache\\bin\\httpd.exe -d D:/Dokumente/GitHub/EnterpriseSolutionDevelopment/apache'
+[Tue Apr 04 11:18:48.773237 2017] [mpm_winnt:notice] [pid 16772:tid 900] AH00418: Parent: Created child process 3132
+[Tue Apr 04 11:18:49.476199 2017] [ssl:warn] [pid 3132:tid 916] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 04 11:18:49.675967 2017] [ssl:warn] [pid 3132:tid 916] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Apr 04 11:18:49.708008 2017] [mpm_winnt:notice] [pid 3132:tid 916] AH00354: Child: Starting 150 worker threads.
+[Tue Apr 04 12:35:09.561013 2017] [:error] [pid 3132:tid 2224] [client ::1:7840] PHP Notice:  Array to string conversion in D:\\Dokumente\\GitHub\\EnterpriseSolutionDevelopment\\htdocs\\joomla\\tmp\\src_b9c29aeb93f9102cc9b0c3afb0b5dc8c on line 18
+[Tue Apr 04 12:35:09.561514 2017] [:error] [pid 3132:tid 2224] [client ::1:7840] PHP Notice:  Array to string conversion in D:\\Dokumente\\GitHub\\EnterpriseSolutionDevelopment\\htdocs\\joomla\\tmp\\src_b9c29aeb93f9102cc9b0c3afb0b5dc8c on line 18
+[Tue Apr 04 12:35:09.561514 2017] [:error] [pid 3132:tid 2224] [client ::1:7840] PHP Notice:  Array to string conversion in D:\\Dokumente\\GitHub\\EnterpriseSolutionDevelopment\\htdocs\\joomla\\tmp\\src_b9c29aeb93f9102cc9b0c3afb0b5dc8c on line 18
+[Tue Apr 04 12:35:09.561514 2017] [:error] [pid 3132:tid 2224] [client ::1:7840] PHP Notice:  Array to string conversion in D:\\Dokumente\\GitHub\\EnterpriseSolutionDevelopment\\htdocs\\joomla\\tmp\\src_b9c29aeb93f9102cc9b0c3afb0b5dc8c on line 18
+[Tue Apr 04 12:35:09.561514 2017] [:error] [pid 3132:tid 2224] [client ::1:7840] PHP Notice:  Array to string conversion in D:\\Dokumente\\GitHub\\EnterpriseSolutionDevelopment\\htdocs\\joomla\\tmp\\src_b9c29aeb93f9102cc9b0c3afb0b5dc8c on line 18
+[Tue Apr 04 12:37:00.893253 2017] [:error] [pid 3132:tid 2232] [client ::1:8016] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in D:\\Dokumente\\GitHub\\EnterpriseSolutionDevelopment\\htdocs\\joomla\\tmp\\src_62ece00ecdcd2d76da23fde8a2c74359 on line 19
+[Tue Apr 04 12:46:26.103694 2017] [:error] [pid 3132:tid 2208] [client ::1:8876] PHP Notice:  Array to string conversion in D:\\Dokumente\\GitHub\\EnterpriseSolutionDevelopment\\htdocs\\joomla\\tmp\\src_b3524c91566703ecc29718fc40b1c1dd on line 18
+[Tue Apr 04 12:46:26.103694 2017] [:error] [pid 3132:tid 2208] [client ::1:8876] PHP Notice:  Array to string conversion in D:\\Dokumente\\GitHub\\EnterpriseSolutionDevelopment\\htdocs\\joomla\\tmp\\src_b3524c91566703ecc29718fc40b1c1dd on line 18
+[Tue Apr 04 12:46:26.120785 2017] [:error] [pid 3132:tid 2208] [client ::1:8876] PHP Notice:  Array to string conversion in D:\\Dokumente\\GitHub\\EnterpriseSolutionDevelopment\\htdocs\\joomla\\tmp\\src_b3524c91566703ecc29718fc40b1c1dd on line 18
+[Tue Apr 04 12:46:26.120785 2017] [:error] [pid 3132:tid 2208] [client ::1:8876] PHP Notice:  Array to string conversion in D:\\Dokumente\\GitHub\\EnterpriseSolutionDevelopment\\htdocs\\joomla\\tmp\\src_b3524c91566703ecc29718fc40b1c1dd on line 18
+[Tue Apr 04 12:46:26.120785 2017] [:error] [pid 3132:tid 2208] [client ::1:8876] PHP Notice:  Array to string conversion in D:\\Dokumente\\GitHub\\EnterpriseSolutionDevelopment\\htdocs\\joomla\\tmp\\src_b3524c91566703ecc29718fc40b1c1dd on line 18
+[Tue Apr 04 12:48:29.556360 2017] [:error] [pid 3132:tid 2224] [client ::1:9058] PHP Notice:  Undefined offset: 0 in D:\\Dokumente\\GitHub\\EnterpriseSolutionDevelopment\\htdocs\\joomla\\tmp\\src_223bd7b522d4631f188aa634e125bb1b on line 18
+[Tue Apr 04 12:48:29.556360 2017] [:error] [pid 3132:tid 2224] [client ::1:9058] PHP Notice:  Undefined offset: 0 in D:\\Dokumente\\GitHub\\EnterpriseSolutionDevelopment\\htdocs\\joomla\\tmp\\src_223bd7b522d4631f188aa634e125bb1b on line 18
+[Tue Apr 04 12:48:29.556360 2017] [:error] [pid 3132:tid 2224] [client ::1:9058] PHP Notice:  Undefined offset: 0 in D:\\Dokumente\\GitHub\\EnterpriseSolutionDevelopment\\htdocs\\joomla\\tmp\\src_223bd7b522d4631f188aa634e125bb1b on line 18
+[Tue Apr 04 12:48:29.556360 2017] [:error] [pid 3132:tid 2224] [client ::1:9058] PHP Notice:  Undefined offset: 0 in D:\\Dokumente\\GitHub\\EnterpriseSolutionDevelopment\\htdocs\\joomla\\tmp\\src_223bd7b522d4631f188aa634e125bb1b on line 18
+[Tue Apr 04 12:48:29.556360 2017] [:error] [pid 3132:tid 2224] [client ::1:9058] PHP Notice:  Undefined offset: 0 in D:\\Dokumente\\GitHub\\EnterpriseSolutionDevelopment\\htdocs\\joomla\\tmp\\src_223bd7b522d4631f188aa634e125bb1b on line 18
+[Tue Apr 04 12:54:32.867548 2017] [:error] [pid 3132:tid 2208] [client ::1:9608] PHP Notice:  Array to string conversion in D:\\Dokumente\\GitHub\\EnterpriseSolutionDevelopment\\htdocs\\joomla\\tmp\\src_cbafd91d47340b3951792ddb0070741c on line 18
+[Tue Apr 04 12:54:32.867548 2017] [:error] [pid 3132:tid 2208] [client ::1:9608] PHP Notice:  Array to string conversion in D:\\Dokumente\\GitHub\\EnterpriseSolutionDevelopment\\htdocs\\joomla\\tmp\\src_cbafd91d47340b3951792ddb0070741c on line 18
+[Tue Apr 04 12:54:32.867548 2017] [:error] [pid 3132:tid 2208] [client ::1:9608] PHP Notice:  Array to string conversion in D:\\Dokumente\\GitHub\\EnterpriseSolutionDevelopment\\htdocs\\joomla\\tmp\\src_cbafd91d47340b3951792ddb0070741c on line 18
+[Tue Apr 04 12:54:32.867548 2017] [:error] [pid 3132:tid 2208] [client ::1:9608] PHP Notice:  Array to string conversion in D:\\Dokumente\\GitHub\\EnterpriseSolutionDevelopment\\htdocs\\joomla\\tmp\\src_cbafd91d47340b3951792ddb0070741c on line 18
+[Tue Apr 04 12:54:32.868048 2017] [:error] [pid 3132:tid 2208] [client ::1:9608] PHP Notice:  Array to string conversion in D:\\Dokumente\\GitHub\\EnterpriseSolutionDevelopment\\htdocs\\joomla\\tmp\\src_cbafd91d47340b3951792ddb0070741c on line 18
+[Tue Apr 04 12:56:56.618842 2017] [:error] [pid 3132:tid 2208] [client ::1:9895] PHP Parse error:  syntax error, unexpected '<' in D:\\Dokumente\\GitHub\\EnterpriseSolutionDevelopment\\htdocs\\joomla\\tmp\\src_5f914d4e6cdf532480755a72fded8441 on line 18
+[Tue Apr 04 12:57:11.274577 2017] [:error] [pid 3132:tid 2208] [client ::1:9921] PHP Parse error:  syntax error, unexpected ',' in D:\\Dokumente\\GitHub\\EnterpriseSolutionDevelopment\\htdocs\\joomla\\tmp\\src_c69e5dcccf37444cc75fb9ca5725af83 on line 18
+[Tue Apr 04 12:57:20.104685 2017] [:error] [pid 3132:tid 2208] [client ::1:9936] PHP Parse error:  syntax error, unexpected '"<br>"' (T_CONSTANT_ENCAPSED_STRING) in D:\\Dokumente\\GitHub\\EnterpriseSolutionDevelopment\\htdocs\\joomla\\tmp\\src_25013ebf67ddf7eb9edce816da73057c on line 18
