@@ -118,6 +118,8 @@ else
 }
 ?>
 <script type="text/javascript">
+
+//test = [{"cat": "test", "cats": []}, {}];
     <!--
 
     // begin function.
@@ -194,7 +196,10 @@ else
 					</div>
 				</div>
 			</header>
+				<jdoc:include type="message" />
+				<jdoc:include type="component" />
 			<?php if ($this->countModules('filter')) : ?>
+			
 				<div id="sidebar" style="width:150px;">
 					<div id="handle">
 						<img src="<?php echo $this->baseurl;?>/templates/benefitstemplate/images/sidebar_close.png" id="test" width="10" height="50" border="0"
@@ -205,7 +210,12 @@ else
 					</div>
 				</div>
 				<div id="content" style="width:429;">
-					<jdoc:include type="modules" name="fünfeck" style="none" />
+						<jdoc:include type="modules" name="fünfeck" style="none" />
+				</div>
+			<?php endif; ?>
+			<?php if ($this->countModules('fünfeck')) : ?>
+				<div id="content">
+						<jdoc:include type="modules" name="fünfeck" style="none" />
 				</div>
 			<?php endif; ?>
 		</div>

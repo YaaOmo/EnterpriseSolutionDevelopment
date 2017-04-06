@@ -1,0 +1,37 @@
+<?php
+defined('_JEXEC') or die;
+function src_d94d9ffe66efbf8cf272f10f61194b39($src_variables){
+$app = $mainframe = JFactory::getApplication();
+$document = $doc = JFactory::getDocument();
+$database = $db = JFactory::getDbo();
+$user = JFactory::getUser();
+$Itemid = $app->input->getInt('Itemid');
+if (is_array($src_variables)) {foreach ($src_variables as $src_key => $src_value) {${$src_key} = $src_value;}}
+$counter = 0; 
+    $db = new mysqli("localhost", "root", "", "benefits"); 
+    if(!$db) 
+    { 
+        exit("Verbindungsfehler: ".mysqli_connect_error()); 
+    } 
+    $abfrage = "SELECT name FROM business_areas"; 
+    $business_areas = $db->query($abfrage); 
+    while ($row = $business_areas->fetch_assoc()) { 
+        printf($row["name"]. "<br>"); 
+         counter++; 
+    } 
+    $img = imagecreatetruecolor(1360,768); 
+ 
+    function regularPolygon($img,$x,$y,$radius,$sides,$color) 
+    { 
+    $points = array(); 
+    for($a = 0;$a <= 360; $a += 360/$sides) 
+        { 
+            $points[] = $x + $radius * cos(deg2rad($a)); 
+            $points[] = $y + $radius * sin(deg2rad($a)); 
+     } 
+        return imagepolygon($img,$points,$sides,$color); 
+    } 
+ 
+regularPolygon($img,1360/2,768/2,300,5,0xffffff);
+;return get_defined_vars();
+;}

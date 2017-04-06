@@ -1,0 +1,68 @@
+<?php
+defined('_JEXEC') or die;
+function src_9cfd49c2bf95c2c8f1633623ff60c418($src_variables){
+$app = $mainframe = JFactory::getApplication();
+$document = $doc = JFactory::getDocument();
+$database = $db = JFactory::getDbo();
+$user = JFactory::getUser();
+$Itemid = $app->input->getInt('Itemid');
+if (is_array($src_variables)) {foreach ($src_variables as $src_key => $src_value) {${$src_key} = $src_value;}}
+printf(echo $this->baseurl); 
+    function regularPolygon($img,$x,$y,$radius,$sides,$color) 
+    { 
+        $points = array(); 
+        $colors = array(); 
+        $colors = [ 
+            0 => 0x3268F2,  
+            1 => 0x5AFF1D, 
+            2 => 0xE5F53A, 
+            3 => 0xF82A2A, 
+            4 => 0x8A8A8A 
+        ]; 
+        for($a = -90;$a <= 270; $a += 360/$sides) 
+        { 
+            $points[] = $x + $radius * cos(deg2rad($a)); 
+            $points[] = $y + $radius * sin(deg2rad($a)); 
+        } 
+        for($z = 0; $z <= count($points) - 4; $z+=2) { 
+            $triangle_points = [ 
+                0 => $points[$z], 
+                1 => $points[$z + 1], 
+                2 => $points[$z + 2], 
+                3 => $points[$z + 3], 
+                4 => $x, 
+                5 => $y 
+            ]; 
+         $mp_x = ($triangle_points[0] + $triangle_points[2] + $triangle_points[4]) / 3; 
+             $mp_y = ($triangle_points[1] + $triangle_points[3] + $triangle_points[5]) / 3;  
+            imagefilledpolygon($img, $triangle_points, 3, $colors[$z/2]); 
+            imagettftext($img , 20, 0, $mp_x, $mp_y, 0x000000, "/templates/benefitstemplate/font/HTOWERT.TTF", "TestString"); 
+        } 
+        header('Content-type: image/png'); 
+        imagepng($img, 'fuenfeck.png'); 
+        imagedestroy($img); 
+    } 
+     
+     
+    $counter = 0; 
+    $db = new mysqli("localhost", "root", "", "benefits"); 
+    if(!$db) 
+    { 
+        exit("Verbindungsfehler: ".mysqli_connect_error()); 
+    } 
+    $abfrage = "SELECT name FROM business_areas"; 
+    $business_areas = $db->query($abfrage); 
+    while ($row = $business_areas->fetch_assoc()) { 
+        printf($row["name"]. "<br>"); 
+        $counter++; 
+    }; 
+    $image = imagecreatetruecolor(1500, 1500); 
+    imagesavealpha($image, true); 
+    $trans_colour = imagecolorallocatealpha($image, 0, 0, 0, 127); 
+    imagefill($image, 0, 0, $trans_colour); 
+     
+     
+    regularPolygon($image, 1500/2, 1500/2, 500, 5, 0xf03a7c); 
+    echo '<img src="fuenfeck.png" />';
+;return get_defined_vars();
+;}

@@ -226,11 +226,16 @@ body {
 #handle {
     float:right;
     width:10px;
+	margin:auto 0;
 	border-left:1px solid #000;
 }
 #content {
     float:left;
     padding:10px;
+	width:100%;
+}
+img{
+	width:100%;
 }
 a {
 	color: #005e8d;
