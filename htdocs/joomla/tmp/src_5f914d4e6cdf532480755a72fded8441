@@ -1,0 +1,21 @@
+<?php
+defined('_JEXEC') or die;
+function src_5f914d4e6cdf532480755a72fded8441($src_variables){
+$app = $mainframe = JFactory::getApplication();
+$document = $doc = JFactory::getDocument();
+$database = $db = JFactory::getDbo();
+$user = JFactory::getUser();
+$Itemid = $app->input->getInt('Itemid');
+if (is_array($src_variables)) {foreach ($src_variables as $src_key => $src_value) {${$src_key} = $src_value;}}
+$db = new mysqli("localhost", "root", "", "benefits"); 
+    if(!$db) 
+    { 
+        exit("Verbindungsfehler: ".mysqli_connect_error()); 
+    } 
+    $abfrage = "SELECT name FROM business_areas"; 
+    $business_areas = $db->query($abfrage); 
+    while ($row = $business_areas->fetch_assoc()) { 
+        printf($row["name"]). <br>; 
+    };
+;return get_defined_vars();
+;}
